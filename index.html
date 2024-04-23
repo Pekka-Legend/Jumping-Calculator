@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Jumping Calculator</title>
+        <style>
+            h1 {
+                font-size: 10vw;
+            }
+            h2 {
+                font-size: 7vw;
+            }
+            body {
+                background-color: cornflowerblue
+            }
+            .calculate {
+                width: 50vw;
+                height: 10vw;
+                font-size: 5vw;
+                margin-top: 2vh;
+            }
+            label {
+                font-size: 4vw;
+            }
+            input {
+                width: 35vw;
+                height: 7vw;
+                text-align: center;
+                font-size: 5vw;
+            }
+        </style>
+    </head>
+    <body>
+        <center><h1>Jumping Calculator</h1></center>
+
+        <label for="Dist From Pit">Dist From Edge to Start of Measure: </label>
+        <input type="number" id="Dist From Pit" name="Dist From Pit"><br>
+
+        <label for="Board">Board: </label>
+        <input type="number" id="Board" name="Board"><br>
+
+        <label for="Mark">Mark: </label>
+        <input type="number" id="Mark" name="Mark"><br>
+
+        <center><h2>New Location: </h2></center>
+
+        <label for="Dist From Pit2">Dist From Edge to Start of Measure: </label>
+        <input type="number" id="Dist From Pit2" name="Dist From Pit2"><br>
+
+        <label for="Board2">Board: </label>
+        <input type="number" id="Board2" name="Board2"><br>
+        
+        <center><button class="calculate" id="calculate">Calculate</button></center>
+        <center><h1 id="newMark">0</h1></center>
+
+        <script src="index.js"></script>
+    </body>
+</html>

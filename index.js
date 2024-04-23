@@ -3,9 +3,7 @@ var homeBoard = document.getElementById("Board")
 var homeMark = document.getElementById("Mark")
 var awayDistFromPit = document.getElementById("Dist From Pit2")
 var awayBoard = document.getElementById("Board2")
-var calculateButton = document.getElementById("calculate")
 var newMarkText = document.getElementById('newMark')
-console.log(calculateButton.clientWidth)
 
 function animate()
 {
